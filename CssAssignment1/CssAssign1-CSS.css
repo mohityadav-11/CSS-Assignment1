@@ -1,0 +1,80 @@
+body{
+	background-color: #D8DA3D
+}
+
+.divOrg{
+	background-color:#FF7F00;
+}
+
+.divBlu{
+	background-color:#0000FF;
+}
+
+.divLeft{
+	color:#80007E;
+	height:100%;
+	padding-right:2.5em;
+	float: left
+}
+
+.listView{
+	list-style-type: none
+}
+
+	.listView li{
+		width:90%;
+		margin-top:1em;
+		display:grid;
+		background-color:white;
+	}
+	
+	.listView p{
+		background-color:white;
+		padding-left:1.5em;
+		padding-right:1.5em;
+	}
+	
+	
+.divCenter{
+	color:#80007E;
+	padding-left:2.5;
+	float: center
+}
+	.divCenter hr{
+		 border: 1px dotted;
+	}
+	
+	.divCenter #pTextLeft{
+		color:black;
+		margin-right:20%;
+		display: flex;
+		padding:0.5em;
+		box-sizing: border-box green;
+		border: 2px dashed;
+		text-align:left;
+	}
+
+	.divCenter #pTextRight{
+		color:black;
+		font-weight:italic;
+		margin-right:20%;
+		display:grid;
+		padding:0.5em;
+		box-sizing: border-box;
+		border: 2px dashed red;
+		text-align:right;
+	}
+
+	.divCenter #pTextCenter{
+		color:black;
+		font-weight: bold;
+		margin-right:20%;
+		display:grid;
+		padding:0.5em;
+		box-sizing: border-box;
+		border: 2px dotted #0000FF;
+		text-align:center;
+	}
+
+
+
